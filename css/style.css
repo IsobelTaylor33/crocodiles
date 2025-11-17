@@ -1,0 +1,50 @@
+body {
+     font-family: "jost", sans-serif; 
+}
+body {
+    background:#c7c6c6;
+    color:#000000;
+     font-family: "Jost", sans-serif;
+    font-weight:400;
+}
+section,header {
+    width:80%;
+    max-width: 900px;
+    margin:auto;
+}
+header h2,blockquote {
+    font-family:"jost",sans-serif;
+    font-weight:300;
+    color:#230731;
+    font-style:italic;
+    margin:4rem 0;
+    color:#230731;
+
+}
+section,header {
+    margin-bottom:5rem;
+}
+h1 {
+    font-size:  4.300rem;
+    line-height:1rem;
+    color:#073113;
+    margin:5rem01rem0;
+}
+h2 {
+    font-size:  1.562rem;
+    line-height:1rem;
+    color:#230731;
+    margin-bottom: 4rem;
+}
+
+
+header h2 {
+    font-weight: bold;
+        color:#230731;
+
+}
+
+header p {
+font-size:1.562rem;
+font-family:"jost",serif;
+}

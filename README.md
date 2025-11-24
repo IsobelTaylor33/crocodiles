@@ -3,4 +3,4 @@
 
 [version 2](https://isobeltaylor33.github.io/crocodiles/index-2.html)
 
-[version 2](https://isobeltaylor33.github.io/crocodiles/index-3.html)
+[version 3](https://isobeltaylor33.github.io/crocodiles/index-3.html)

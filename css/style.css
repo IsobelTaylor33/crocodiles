@@ -24,7 +24,7 @@ section,header {
     margin-bottom:5rem;
 }
 h1 {
-    font-size:  4.300rem;
+    font-size:  4rem;
     line-height:1rem;
     color:#BF3100;
     margin:5rem01rem0;
@@ -109,25 +109,22 @@ nav a :hover {
 /*-- styling the footer --*/
 
 footer {
-        background-color: #ac5503;
-padding: 3rem 0;
-
-}
-
-footer a{
-    color:#fce6df;
+    background: #ac5503;
+    color: #f7f7f7;
     text-align: center;
     font-size: 0.8rem;
     padding: 4rem 0;
 }
 
+.light {
+    background: antiquewhite;
+    padding: 3rem 0;
+}
+
 footer a {
-    color:#ac5503;
+    color: antiquewhite;
 }
 
-footer a :hover {
-    color:antiquewhite;s
+footer a:hover {
+    color: #000000;
 }
-
-
-

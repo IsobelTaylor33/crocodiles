@@ -5,42 +5,43 @@ body {
     background:#c7c6c6;
     color:#000000;
      font-family: "Jost", sans-serif;
-    font-weight:500;
+    font-weight: 600;
 }
 section,header {
     width:80%;
-    max-width: 900px;
+    max-width: 850px;
     margin:auto;
 }
 header h2,blockquote {
     font-family:"jost",sans-serif;
-    font-weight:400;
-    color:#ac5503;
+    font: weight 500;
+    color:#693403;
     font-style:italic;
     margin:4rem 0;
-    color:#ac5503;
+    color:#693403;
 }
 section,header {
     margin-bottom:5rem;
 }
 h1 {
     font-size:  4rem;
-    line-height:1rem;
-    color:#BF3100;
-    margin:5rem01rem0;
+    line-height:1.2;
+    color:#693403;
+    margin:5rem 0 1rem 0;
     padding: 50px;
 }
 h2 {
     font-size:  1.562rem;
     line-height:1rem;
-    color:#ac5503;
+    color:#693403;
     margin-bottom: 4rem;
+    font-weight: 600;
+    
 }
 
-
 header h2 {
-    font-weight: bold;
-        color:#ac5503;
+    font-weight: 400;
+        color:#693403;
 
 }
 
@@ -51,13 +52,23 @@ font-family:"jost",serif;
 
 /*--styling--*/
 a {
-    color: #ac5503;
+    color: #693403;
     text-decoration: none;
-    border-bottom: 1px dotted;
+    border-bottom: 2px dotted;
     font-weight: 800;
 }
 a:hover {
     color: #000000;
+}
+
+hr{
+    margin: 3rem 0 5rem 0;
+    
+}
+
+/* Thick black border */
+hr {
+  border: 1px solid #000000 ;
 }
 
 /*-- navigation --*/
@@ -107,6 +118,14 @@ nav a :hover {
     transition: all 0.3s ease-in-out;
 }
 
+/*-- Adding responsive element to images--*/
+
+.gridimage {
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+}
+
 /*-- styling the footer --*/
 
 footer {
@@ -118,7 +137,7 @@ footer {
 }
 
 .light {
-    background: antiquewhite;
+    background: #c29c78;
     padding: 3rem 0;
 }
 
@@ -128,4 +147,14 @@ footer a {
 
 footer a:hover {
     color: #000000;
+}
+
+/*-- Adding media queries for different devices--*/
+
+@media (max-width:600px){
+    header h1 {
+        font-size: 4rem;}
+    .gridimage {
+        row-gap: 10px;
+    }
 }

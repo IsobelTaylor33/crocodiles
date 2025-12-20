@@ -15,10 +15,10 @@ section,header {
 header h2,blockquote {
     font-family:"jost",sans-serif;
     font: weight 500;
-    color:#693403;
+    color:#69034e;
     font-style:italic;
     margin:4rem 0;
-    color:#693403;
+    color:#69034e;
 }
 section,header {
     margin-bottom:5rem;
@@ -26,14 +26,15 @@ section,header {
 h1 {
     font-size:  4rem;
     line-height:1.2;
-    color:#693403;
+    color:#42035d;
     margin:5rem 0 1rem 0;
     padding: 50px;
+    text-align: center;
 }
 h2 {
     font-size:  1.562rem;
     line-height:1rem;
-    color:#693403;
+    color:#69034e;
     margin-bottom: 4rem;
     font-weight: 600;
     
@@ -41,7 +42,7 @@ h2 {
 
 header h2 {
     font-weight: 400;
-        color:#693403;
+        color:#69034e;
 
 }
 
@@ -52,7 +53,7 @@ font-family:"jost",serif;
 
 /*--styling--*/
 a {
-    color: #693403;
+    color: #69034e;
     text-decoration: none;
     border-bottom: 2px dotted;
     font-weight: 800;
@@ -73,7 +74,7 @@ hr {
 
 /*-- navigation --*/
 .responsivenav{
-    background-color: #ac5503;
+    background-color: #69034e;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -129,7 +130,7 @@ nav a :hover {
 /*-- styling the footer --*/
 
 footer {
-    background: #ac5503;
+    background: #69034e;
     color: #f7f7f7;
     text-align: center;
     font-size: 0.8rem;
@@ -137,7 +138,7 @@ footer {
 }
 
 .light {
-    background: #c29c78;
+    background: #a0c1ef;
     padding: 3rem 0;
 }
 

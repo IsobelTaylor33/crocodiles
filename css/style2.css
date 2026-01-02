@@ -11,14 +11,15 @@ section,header {
     width:80%;
     max-width: 850px;
     margin:auto;
+    
 }
 header h2,blockquote {
     font-family:"jost",sans-serif;
     font: weight 500;
-    color:#69034e;
+    color:#693403;
     font-style:italic;
-    margin:4rem 0;
-    color:#69034e;
+    margin: 4rem 0;
+    color:#693403;
 }
 section,header {
     margin-bottom:5rem;
@@ -26,15 +27,16 @@ section,header {
 h1 {
     font-size:  4rem;
     line-height:1.2;
-    color:#42035d;
-    margin:5rem 0 1rem 0;
-    padding: 50px;
-    text-align: center;
+    color:#693403;
+    margin: 5rem 0 1rem 0;
+    padding: 1rem;
+    word-break: normal;
+    overflow-wrap: break-word;
 }
 h2 {
     font-size:  1.562rem;
-    line-height:1rem;
-    color:#69034e;
+    line-height: normal;
+    color:#693403;
     margin-bottom: 4rem;
     font-weight: 600;
     
@@ -42,7 +44,7 @@ h2 {
 
 header h2 {
     font-weight: 400;
-        color:#69034e;
+        color:#693403;
 
 }
 
@@ -53,7 +55,7 @@ font-family:"jost",serif;
 
 /*--styling--*/
 a {
-    color: #69034e;
+    color: #693403;
     text-decoration: none;
     border-bottom: 2px dotted;
     font-weight: 800;
@@ -74,7 +76,7 @@ hr {
 
 /*-- navigation --*/
 .responsivenav{
-    background-color: #69034e;
+    background-color: #693403;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -82,7 +84,7 @@ hr {
 }
 
 #logo{
-    font-size: 1.25rem;
+    font-size: 1.75rem;
     color: antiquewhite;
     font-family: "jost" serif;
     font-weight: 600;
@@ -119,6 +121,7 @@ nav a :hover {
     transition: all 0.3s ease-in-out;
 }
 
+
 /*-- Adding responsive element to images--*/
 
 .gridimage {
@@ -130,7 +133,7 @@ nav a :hover {
 /*-- styling the footer --*/
 
 footer {
-    background: #69034e;
+    background: #693403;
     color: #f7f7f7;
     text-align: center;
     font-size: 0.8rem;
@@ -138,7 +141,7 @@ footer {
 }
 
 .light {
-    background: #a0c1ef;
+    background: #c29c78;
     padding: 3rem 0;
 }
 

@@ -4,7 +4,7 @@ body {
 body {
     background:#c7c6c6;
     color:#000000;
-     font-family: "Jost", sans-serif;
+    font-family: "Jost", sans-serif;
     font-weight:500;
 }
 section,header {
@@ -15,43 +15,43 @@ section,header {
 header h2,blockquote {
     font-family:"jost",sans-serif;
     font-weight:400;
-    color:#ac5503;
+    color:#693403;
     font-style:italic;
     margin:4rem 0;
-    color:#ac5503;
+    color:#693403;
 }
 section,header {
     margin-bottom:5rem;
 }
 h1 {
     font-size:  4rem;
-    line-height:1rem;
-    color:#BF3100;
-    margin:5rem01rem0;
-    padding: 50px;
+    line-height: normal;
+    color:#693403;
+    margin: 5rem 0 1rem 0;
+    padding: 1rem;
 }
 h2 {
     font-size:  1.562rem;
-    line-height:1rem;
-    color:#ac5503;
+    line-height: 1.1;
+    color:#693403;
     margin-bottom: 4rem;
 }
 
 
 header h2 {
     font-weight: bold;
-        color:#ac5503;
+        color:#693403;
 
 }
 
 header p {
-font-size:1.562rem;
+font-size: 1.562rem;
 font-family:"jost",serif;
 }
 
 /*--styling--*/
 a {
-    color: #ac5503;
+    color: #693403;
     text-decoration: none;
     border-bottom: 1px dotted;
     font-weight: 800;
@@ -62,7 +62,7 @@ a:hover {
 
 /*-- navigation --*/
 .responsivenav{
-    background-color: #ac5503;
+    background-color: #693403;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -110,7 +110,7 @@ nav a :hover {
 /*-- styling the footer --*/
 
 footer {
-    background: #ac5503;
+    background: #693403;
     color: #f7f7f7;
     text-align: center;
     font-size: 0.8rem;
